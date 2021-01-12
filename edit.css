@@ -1,0 +1,142 @@
+
+@media only screen and (max-width: 767px){
+.main-menu .collapse.in, .main-menu .collapsing {
+		overflow: auto!important;
+		padding: 0px 0px 0px!important;
+		border: none!important;
+		margin: 20px 0px 10px!important;
+		-ms-border-radius: 0px!important;
+		-moz-border-radius: 0px!important;
+		-webkit-border-radius: 0px!important;
+		-o-border-radius: 0px!important;
+		border-radius: 0px!important;
+		-webkit-box-shadow: none!important;
+		-ms-box-shadow: none!important;
+		-o-box-shadow: none!important;
+		-moz-box-shadow: none!important;
+		box-shadow: none!important;
+	}		
+.main-menu .collapse {
+	   max-height:1000px!important;
+   }
+ }
+
+
+/*Error Section*/
+
+.error-section{
+	position:relative;
+	padding:190px 0px 200px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+}
+
+.error-section:before{
+	position:absolute;
+	content:'';
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	display:block;
+	background-color:rgba(26,26,28,0.85);
+}
+.error-section .thm-btn1 {
+    color: #f28b1d;
+}
+
+.error-section .content{
+	position:relative;
+}
+
+.error-section h1{
+	position:relative;
+	color:#ffffff;
+	font-size:200px;
+	font-weight:800;
+	line-height:1em;
+	margin-bottom:20px;
+
+}
+
+.error-section h2{
+	position:relative;
+	color:#ffffff;
+	font-size:55px;
+	font-weight:600;
+	line-height:1.2em;
+	margin-bottom:0px;
+}
+
+.error-section .text{
+	position:relative;
+	color:#ffffff;
+	font-size:25px;
+	font-weight:500;
+	margin-top:10px;
+	margin-bottom:35px;
+
+}
+
+.error-section .theme-btn{
+	position:relative;
+	font-size:20px;
+	font-weight:500;
+	padding:15px 40px 15px;
+
+}
+/*Error Section*/
+
+ h4.er_the_title{
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.error_text2{
+    margin-bottom: 20px;
+    color: #fff;
+}
+.sr_title{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #000;
+    font-weight: 600;
+}
+.search_text p{
+    font-size: 17px;
+    color: #414141;
+    font-weight: 500;
+}
+.search_text{
+    font-size: 17px;
+    color:#414141;
+    font-weight: 500;
+}
+.search_page_btn a{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*Menu on Right Side */
+
+/* Hide 4th Level Menu */
+.main-menu .navigation > li > ul > li ul ul {
+    display: none !important;
+}
+/* recent Comment */
+.recentcomments a {
+    display: inline !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+ul.info-list li{
+    list-style-type: none;
+    display: list-item;
+    border-right: none;
+}
+.search_area_df{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}

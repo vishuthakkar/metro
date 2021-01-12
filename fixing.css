@@ -1,0 +1,78 @@
+.blog-detail .tags a {
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 14px;
+    line-height: 25px;
+    color: #939292;
+    font-weight: 400;
+    padding: 5px 25px;
+    border: 1px solid #e1e1e1;
+    border-radius: 30px;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.blog-detail .tags a:hover{
+	background-color: #222222;
+    color: #ffffff;
+}
+.wraper_search > .table > .table-cell .inner_search > .search-bar .form-row input[type=text] {
+    width: 100%;
+    height: 60px;
+    padding: 0px 40px 0px 0px;
+    background-color: initial;
+    border: none;
+    border-bottom: 3px #dedede solid;
+    box-shadow: initial;
+    font-size: 20px;
+    color: #fff;
+}
+.header-top {
+    background-color: #e38b00;
+}
+
+.admin-bar .hidden-bar .inner-box {
+    top: 32px;
+}
+span.page-numbers.current {
+    color: #fff;
+    background-color: #e38b00;
+    border-color: #e38b00;
+    position: relative;
+    display: block;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 46px;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 50%;
+    border: 2px dashed #e38b00;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.sidebar-page-container .sidebar-side, .sidebar-page-container .content-side {
+    position: relative;
+    margin-bottom: 150px;
+}
+.sidebar-widget {
+    position: relative;
+    margin-bottom: 55px;
+    border: 1px solid #f4f4f4;
+    padding: 25px;
+    background: white;
+}
+del span.woocommerce-Price-amount.amount {
+    color: #777777;
+}
+span.woocommerce-Price-amount.amount {
+    color: #e38b00;
+}
